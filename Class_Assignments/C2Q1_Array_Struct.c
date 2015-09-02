@@ -7,7 +7,8 @@
 
 /* Author: Enes Kemal Ergin
  * Assignment: Assignment 1P
- * Programming Languages
+ * Class : Programming Languages
+ * Date : 09/01/15
  */
 
  #include <stdio.h>
