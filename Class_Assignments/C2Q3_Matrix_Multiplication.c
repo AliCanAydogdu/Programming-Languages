@@ -22,7 +22,7 @@ int main(int argc, char const *argv[]) {
   /* First Matrix */
   printf("For first matrix: \n");
   printf("Enter the number of rows and columns respectively:\t");
-  scanf("%d%d\n", &a, &b); // gets number of columns and rows
+  scanf("%d%d", &a, &b); // gets number of columns and rows
 
   printf("Enter the elements of the matrix: \n");
   // Using nested for loop can reach every element in matrix and add elements
@@ -35,7 +35,7 @@ int main(int argc, char const *argv[]) {
   /* Second Matrix*/
   printf("For second matrix: \n");
   printf("Enter the number of rows and columns respectively:\t");
-  scanf("%d%d\n", &e, &f); //gets the number of column of rows for second matrix
+  scanf("%d%d", &e, &f); //gets the number of column of rows for second matrix
 
   printf("Enter the elements of the matrix: \n");
   // Using nested for loop
@@ -61,10 +61,11 @@ int main(int argc, char const *argv[]) {
   // Prints the product matrix
   printf("Here is the product matrix:\n");
   for(c = 0; c < a; c++){
-    for(d = 0; d < f; s++){
+    for(d = 0; d < f; d++){
       printf("%d\t", product[c][d]);
     }
     printf("\n");
   }
   return 0;
 }
+
