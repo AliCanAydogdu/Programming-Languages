@@ -50,7 +50,7 @@ Here is some information about the languages that are being used in this reposit
  - Strength is the Speed like its ancestor
  - Weaknesses are the old age, Java and C# are more useable.
 
- 6. R
+6. R
  --
  - Interpreted Language
  - Statistical Programming Language
@@ -71,12 +71,17 @@ Here is some information about the languages that are being used in this reposit
 --
  - Logic Programming Language
 
+
 9. Octave GNU
+--
 
 10. Ruby
+--
 
 11. Go
+--
 
 12. Scala
+--
 
 > Needs to be updated when the information are ready...  
