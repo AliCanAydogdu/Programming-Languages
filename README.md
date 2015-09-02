@@ -51,7 +51,7 @@ Here is some information about the languages that are being used in this reposit
  - Weaknesses are the old age, Java and C# are more useable.
 
 6. R
- --
+--
  - Interpreted Language
  - Statistical Programming Language
  - Can be used as a functional Language
