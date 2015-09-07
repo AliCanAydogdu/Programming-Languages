@@ -60,7 +60,7 @@ Here is some information about the languages that are being used in this reposit
 
  - Weaknesses are hard to master, and speed
 
-7. F#
+7. Haskell
 --
  - Functional Language
  - Simple and concise
