@@ -78,10 +78,4 @@ Here is some information about the languages that are being used in this reposit
 10. Ruby
 --
 
-11. Go
---
-
-12. Scala
---
-
 > Needs to be updated when the information are ready...  
