@@ -60,12 +60,9 @@ Here is some information about the languages that are being used in this reposit
 
  - Weaknesses are hard to master, and speed
 
-7. Haskell
+7. Theano Library of Python
 --
- - Functional Language
- - Simple and concise
- - Numerous opportunities in scientific and industry area
- -
+
 
 8. Prolog
 --
