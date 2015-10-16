@@ -1,4 +1,11 @@
-/* front.c - a lexical analyzer system for simple arithmetic expressions  */
+/* front.c - a lexical analyzer system for
+ simple arithmetic expressions implemented in C */
+
+ /* Author: Enes Kemal Ergin
+  * Assignment: Assignment 3P
+  * Class : Programming Languages
+  * Date : 10/16/15
+  */
 
 #include <stdio.h>
 #include <ctype.h>
@@ -40,7 +47,7 @@ int lex();
 /* Main Function */
 main(){
   /* Open the input data file and process its contents */
-  if((in_fp = fopen("front.in", "r")) == NULL){
+  if((in_fp = fopen("front.txt", "r")) == NULL){
     printf("ERROR - cannot open front.in \n");
   }
   else{
