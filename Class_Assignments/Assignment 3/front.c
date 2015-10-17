@@ -129,7 +129,7 @@ void getNonBlank(){
 }
 
 /* lex Function */
-int lext(){
+int lex(){
   /* a simple lexical analyzer for arithmetic expressions */
   lexLen = 0;
   getNonBlank();
