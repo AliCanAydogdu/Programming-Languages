@@ -72,7 +72,7 @@ Here is some information about the languages that are being used in this reposit
 9. Octave GNU
 --
 
-10. Ruby
+10. Objective-C
 --
 
 > Needs to be updated when the information are ready...  
