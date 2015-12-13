@@ -1,6 +1,4 @@
-;;;; Translation of Peter Norvig's sudoku solver to idiomatic Clojure
-;;;; See http://norvig.com/sudoku.html
-;;;;
+;;;; From Justin Kramer
 ;;;; Throughout this program we have:
 ;;;;   r is a row,     e.g. :a
 ;;;;   c is a column,  e.g. 3
@@ -208,6 +206,3 @@
   (solve-all (from-file (str data-dir "top95.txt")) "hard")
   (solve-all (from-file (str data-dir "hardest.txt")) "hardest")
   (solve-all (repeatedly 99 random-puzzle) "random"))
-
-
-

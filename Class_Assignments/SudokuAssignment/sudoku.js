@@ -3,8 +3,8 @@ var test_grid2 = "4.....8.5.3..........7......2.....6.....8.4......1.......6.3.7
 
 function cross(A, B){
   var C = [];
-  for (var a in A) 
-    for (var b in B) 
+  for (var a in A)
+    for (var b in B)
       C.push(A[a] + B[b]);
   return C;
 }
@@ -24,14 +24,14 @@ var neliminations = 0;
 var nsearches = 0;
 
 var unitlist = [];
-for (var c in cols) 
+for (var c in cols)
   unitlist.push(cross(rows, [cols[c]]));
-for (var r in rows) 
+for (var r in rows)
   unitlist.push(cross([rows[r]], cols));
 var rrows = [['A','B','C'], ['D','E','F'], ['G','H','I']];
 var ccols = [['1','2','3'], ['4','5','6'], ['7','8','9']];
-for (var rs in rrows) 
-  for (var cs in ccols) 
+for (var rs in rrows)
+  for (var cs in ccols)
     unitlist.push(cross(rrows[rs], ccols[cs]));
 
 var units = {};
@@ -97,7 +97,7 @@ function eliminate(values, sq, dig){
     var dplaces = [];
     for (var s in units[sq][u]){
       var sq2 = units[sq][u][s];
-      if (values[sq2].indexOf(dig) != -1) 
+      if (values[sq2].indexOf(dig) != -1)
         dplaces.push(sq2);
     }
     if (dplaces.length == 0)
@@ -148,7 +148,7 @@ function center(s, w){
   }
   return s;
 }
-  
+
 function board_string(values){ // Used for debugging
   var width = 0;
   for (var s in squares)
